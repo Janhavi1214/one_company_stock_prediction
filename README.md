@@ -1,4 +1,4 @@
-# 📈 Stock Market ML Prediction Model
+# 📈 One company Stock Market ML Prediction Model
 
 A machine learning pipeline for predicting next-day stock price direction (UP/DOWN) using technical indicators. Built and tested on **Coal India (COALINDIA.NS)** historical data.
 
