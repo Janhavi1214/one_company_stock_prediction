@@ -1,5 +1,10 @@
 # 📈 One company Stock Market ML Prediction Model
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![ML](https://img.shields.io/badge/ML-scikit--learn-orange?logo=scikit-learn)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 A machine learning pipeline for predicting next-day stock price direction (UP/DOWN) using technical indicators. Built and tested on **Coal India (COALINDIA.NS)** historical data.
 
 ---
@@ -135,6 +140,32 @@ The model with the highest **validation accuracy** is automatically selected as 
 | Signal confidence     | `generate_trading_signals()`   | 0.65              |
 | Initial capital       | `backtest()`                   | ₹1,00,000         |
 | Model output filename | `save_model()`                 | `coalindia_model` |
+
+---
+
+## 🗺️ Roadmap
+
+Here's what's planned for future versions:
+
+- [ ] **Multi-stock support** — run the pipeline on any NSE/BSE ticker without code changes
+- [ ] **Hyperparameter tuning** — add GridSearchCV / Optuna for automated tuning
+- [ ] **Additional indicators** — Stochastic Oscillator, Williams %R, OBV
+- [ ] **LSTM / time-series model** — add a deep learning baseline for comparison
+- [ ] **Walk-forward backtesting** — replace static split with rolling window evaluation
+- [ ] **Live data integration** — connect to Yahoo Finance or NSE API for real-time signals
+- [ ] **Risk metrics** — add Sharpe Ratio, Max Drawdown, and Win Rate to backtest output
+- [ ] **Interactive dashboard** — Streamlit or Dash UI for signal visualization
+
+---
+
+## 👥 Contributing
+
+This project is currently open to **known contributors only**. If you'd like to be involved, reach out directly to the maintainer before submitting a pull request.
+
+For now, feel free to:
+- ⭐ Star the repo if you find it useful
+- 🐛 Open an issue if you spot a bug
+- 💡 Suggest ideas via GitHub Discussions
 
 ---
 
